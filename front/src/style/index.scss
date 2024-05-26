@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.survey-form {
+  @apply col-span-7 lg:col-span-3 lg:col-start-3 rounded-md bg-white p-4 shadow-xl overflow-y-scroll border;
+  height: 540px;
+}
